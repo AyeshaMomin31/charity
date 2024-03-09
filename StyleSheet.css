@@ -1,0 +1,643 @@
+﻿body {
+    font-family: 'Barlow', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.img {
+    width: 100%;
+    display: block;
+}
+
+.clear:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+/*.container{
+    width:1170px;
+    margin:auto;
+}*/
+/*-----NAVBAR START-----*/
+/*menu*/
+.lbl {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    background-color: transparent;
+    color: #5bbfce;
+    line-height: 40px;
+    text-align: center;
+    top: 22px;
+    right: 50px;
+    display: none;
+}
+
+#chk1 {
+    display: none;
+}
+
+/*menu*/
+
+.nav-bar {
+    background-color: #222222;
+    background-attachment: fixed;
+}
+
+.icon h3 {
+    display: inline-block;
+    font-size: 30px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    font-size: 28px;
+    margin: auto;
+    letter-spacing: 2px;
+    margin-top: 30px !important;
+}
+
+
+.menu ul li {
+    float: left;
+    display: block;
+    padding: 25px 15px;
+    letter-spacing: 1px;
+  
+}
+
+    .menu ul li a {
+        color: white;
+        font-size: 13px;
+        font-weight: 500;
+        margin-right: 5px;
+        text-transform: uppercase;
+        
+    }
+
+.menu {
+    float: right;
+    overflow: hidden;
+}
+
+    .menu ul li i {
+        display: block;
+        color: transparent;
+        text-align: center;
+    }
+
+    .menu ul li:hover i {
+        display: block;
+        color: #5bbfce;
+    }
+
+    .menu ul li:hover {
+        background-color: #084b55;
+    }
+
+    .menu ul li a:hover {
+    }
+/*-----NAVBAR END-------*/
+
+/*sliderr start*/
+
+
+.slider {
+    background-image: url(Five-Reasons-Why-Giving-to-Charity-is-Important.jpg);
+    padding-bottom: 150px;
+    background-size: cover;
+    background-position: center;
+    padding-top: 90px;
+}
+
+.slide {
+    margin: auto;
+    padding-top: 42px;
+}
+
+    .slide h2 {
+        background-color: rgba(0, 0, 0, 0.44);
+        width: 50%;
+        font-size: 36px;
+        color: white;
+        padding: 10px;
+        margin-bottom: 10px;
+        letter-spacing: 1px;
+    }
+
+    .slide p {
+        background-color: rgba(0, 0, 0, 0.44);
+        width: 65%;
+        font-size: 14px;
+        color: white;
+        width: 50%;
+        padding: 14px;
+        line-height: 1.32;
+    }
+
+.readmore input {
+    padding: 10px 10px;
+    background-color: rgb(34,34,34 );
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/*slider end*/
+
+/*main start*/
+.main {
+    background-color: #F0EFF4;
+    padding: 100px 0px;
+    position:relative;
+    
+}
+.border-main{
+   position: absolute;
+    border-top: 4px groove #f8f8f8;
+    top: 179px;
+    bottom: 10px;
+    right: 0px;
+    left: 0px;
+}
+
+.image img {
+    border-radius: 50%;
+    width: 50%;
+    display:block;
+    background-size: contain;
+    text-align: center;
+    margin:auto;
+}
+
+.layout {
+    text-align: center;
+    
+}
+
+.layout h4 {
+    color:#616163;
+    padding:20px;
+    font-size:20px;
+}
+.layout p{
+    color:#69696B;
+    font-size:13px;
+    display:inline-block;
+}
+.image:after{
+    border-bottom: 6px ridge rgba(223, 223, 223, 0.44);
+    top: 10px;
+    bottom: 208px;
+    right: 7px;
+    left: 7px;
+    box-sizing:border-box;
+    
+    display:inline-block;
+
+}
+.symbol{
+    
+   margin-top:-15px;
+    text-align:center;
+}
+.symbol i{
+   text-align:center;
+   padding:9px 10px;
+   font-size:12px;
+   background-color: #F0EFF4;
+   color:#ffffff;
+   border-radius:50%;
+   border-top:3px solid white;
+   border-top-left-radius:50%;
+   border-top-right-radius:50%;
+   margin-bottom:50px;
+   cursor:pointer;
+
+}
+.symbol i:hover{
+    background-color:#ef5c5c;
+    color:white;
+}
+/*main end*/
+
+/*GALLARY START*/
+
+.gallary{
+    padding:50px 0px;
+    margin:auto;
+    text-align:center;
+}
+.element {
+    display:flex;
+}
+.element h3{
+     color:#222222;
+     margin-top:3px;
+     font-weight:200;
+}
+.magic i{
+     margin-left: 6px;
+    font-size: 18px;
+    padding: 5px 8px;
+    background-color: #f0eff4;
+    color: white;
+    border-radius: 50%;
+}
+.line{
+    width:100%;
+    /*height:6px;*/
+    display:flex;
+    margin:auto;
+    margin-top:10px;
+    margin-bottom:10px
+}
+.line1{
+    width:10%;
+    background-color:#c92929;
+    height:6px;
+    margin-right:2px;
+    
+}
+.line2{
+    width:100%; 
+    height:6px;
+    background-color:#ef5c5c;
+}
+.photo img{
+    width:100%;
+    display:inline-block;
+}
+.photo{
+    position:relative;
+    margin:30px 8px;
+}
+.plus{
+    position:absolute;
+    color:white;
+    top: 38%;
+    left: 42%;
+}
+.plus i{
+    height:60px;
+    width:60px;
+    /*background-color:#CC3C3B;*/
+    border-radius:50%;
+    padding:17px 10px;
+    opacity:0;
+    
+}
+.photo:hover .plus i{
+    opacity:1;
+}
+.photo:hover .overlay{
+    background-color:#ef5c5c85;
+    position: absolute;
+    top: 1px;
+    bottom: 5px;
+    right: 0;
+    left: 0px;
+}
+
+
+/*GALLARY END*/
+
+
+/*LATEST NEWS START*/
+
+
+.latest{
+    padding:50px 0px
+}
+.magic:hover i{
+   background-color:#c92929;
+}
+.calender{
+    height:70px;
+    width:57px;
+    background-color:rgb(251 ,251 ,251);
+    border:1px solid rgba(219, 218, 223, 0.80);
+    
+    float:left;
+    margin-right:10px;
+    margin-bottom:7px;
+}
+.new{
+    
+}
+.stamp{
+    height:15px;
+    background-color:#ef5c5c;
+   
+}
+.stamp i{
+    width:100%;       
+    text-align:center;
+    color:white;
+    height:1px;
+ 
+   
+}
+.date{
+    margin-top:5px;
+}
+.date p{
+    color:#69696B;
+    text-align:center;
+}
+.date span{
+    text-align:center;
+    color:rgb(0, 157, 156);
+    font-weight:700;
+    margin-left:3px;
+}
+.header{
+   padding-left:5px;
+}
+.header h3{
+    color: #000000bd;
+    width: 100%;
+    font-size: 17px;
+}
+.header p{
+    font-size:12px;
+    color:#979798;
+    margin-top:10px;
+}
+.header span{
+  margin-bottom:12px;
+    font-size:12px;
+    color:#979798;
+    margin-top:10px;
+}
+
+/*LATEST NEWS END*/
+
+/*event*/
+.sponsers{
+    padding-top:50px;
+    position:relative;
+  
+}
+.icon-sponser i{
+    color:#ef5c5c;
+    font-size:30px;
+    padding-top:50px;
+    float:left;
+    position:absolute;
+    right:33px;
+    bottom:100px;
+   
+}
+.icon1-sponser i{
+    color:#ef5c5c;
+    font-size:30px;
+    padding-top:50px;
+    /*float:right;*/
+    position:absolute;
+    top:80px;
+    bottom:0px;
+    left:25px !important;
+    right:0px
+}
+.sponsers img{
+    width:100%;
+    display:block;
+    text-align:left;
+    margin-bottom:20px;
+   
+}
+.spn{
+    width:90%;
+  
+    margin:50px auto;
+}
+/*event*/
+
+
+/*footer-back*/
+.blank{
+    display:block;
+}
+.footer h5{
+    color: white;
+    text-align: left;
+    letter-spacing: 1px;
+    border-bottom: 5px solid #c92929;
+    display: inline-block;
+}
+.footer-back{
+    padding:50px 0px;
+    background-color:#2b2a2a;
+    border-top:3px solid #ef5c5c;
+   
+}
+.about h5{
+    color:white;
+    text-align:left;
+    letter-spacing:1px;
+    
+}
+.border-bottom {
+    border-bottom: 3px solid #ef5c5c;
+    width: 21%;
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom:30px;
+}
+.about p{
+    color:#c6c4d0;
+    font-size:12px;
+    padding-top:30px;
+    margin-bottom:10px;
+   line-height:1.5;
+}
+.ficon{
+    padding-top:40px;
+}
+.ficon ul li{
+    float:left;
+  
+   
+}
+.ficon ul li i{
+   padding: 2px 2px;
+    /* background-color: #c92929; */
+    color: #0e0d0d;
+    border-radius: 50%;
+    margin-left: 10px;
+    background-color:#c74141;
+}
+.second{
+    color:white;
+}
+
+.second h5{
+    color:white;
+    text-align:left;
+    letter-spacing:1px;
+    
+}
+.border1-bottom {
+    border-bottom: 3px solid #ef5c5c;
+    width: 40%;
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom:30px;
+  
+}
+.para1 p{
+   color:#69696B;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 18px;
+}
+.para p{
+    color:#c6c4d0;
+    font-size:12px;
+    margin-top:23px;
+    margin-bottom:10px;
+   line-height:1.5;
+   float:left;
+   width:51%;
+}
+.second-img{
+    float:left;
+    display:inline-block;
+    background-color:rgb(204, 204, 204);
+    height:60px;
+    width:85px;
+    margin-top:23px;
+    margin-right:6px;
+}
+.second{
+    border-bottom:1px solid #5e5e60;
+    padding-bottom:20px;
+}
+.second1-img{
+    float:left;
+    display:inline-block;
+    
+    height:70px;
+    width:81px;
+    background-color:rgb(204, 204, 204);
+    margin-top:8px;
+    margin-right:6px;
+}
+
+.flicker h5{
+    color:white;
+    text-align:left;
+    letter-spacing:1px;
+    
+}
+.border4-bottom {
+    border-bottom: 3px solid #ef5c5c;
+    width: 30%;
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom:30px;
+}
+.twitter h5{
+    color:white;
+    text-align:left;
+    letter-spacing:1px;
+    
+}
+.tweet i{
+    color:#c92929;
+    margin-right:5px;
+}
+.tweets i{
+    color:#c92929;
+    margin-right:5px;
+}
+.tweet p{
+    color:#c6c4d0;
+    font-size:14px;
+    margin-top:23px;
+    
+   line-height:1.6;
+
+   width:80%;
+}
+.tweet a{
+  color:#ef5c5c;
+    font-style:italic;
+    font-size:12px;
+    
+}
+.tweet span{
+    color:#757479;
+    font-size:13px;
+}
+.tweet{
+    border-bottom:1px solid #5e5e60;
+    padding-bottom:30px;
+}
+
+
+
+
+
+
+.tweets p{
+    color:#c6c4d0;
+    font-size:14px;
+    margin-top:23px;
+    
+   line-height:1.6;
+
+   width:80%;
+}
+.tweets a{
+  color:#ef5c5c;
+    font-style:italic;
+    font-size:12px;
+    
+}
+.tweets span{
+    color:#757479;
+    font-size:13px;
+}
+
+/*footer-back*/
+
+.sub {
+    padding: 25px 0px;
+    background-color:#2b2a2af2;
+    border-top: 1px solid #5e5e60;
+}
+.left p{
+    color:#c6c4d0;
+    font-size:13px;
+    margin:auto;
+  
+}
+.right{
+    /* float:right; */
+    text-align: center;
+}
+.right p{
+    color:#c6c4d0;
+    font-size:12px;
+    text-transform:uppercase;
+    margin:auto;
+    letter-spacing:1px;
+  
+}
+.right span{
+    color:white;
+}
